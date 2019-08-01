@@ -80,3 +80,7 @@ gem 'font-awesome-rails'
 gem 'devise'
 
 gem 'pry'
+
+gem 'geocoder'
+
+gem 'figaro'
