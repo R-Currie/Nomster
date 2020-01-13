@@ -1,24 +1,33 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### [Link](https://nomster-robert-currie.herokuapp.com/) to live app
 
-Things you may want to cover:
+An app that allows users to post restaurants and provide reviews for those restaurants.
 
-* Ruby version
+### Getting Started
+* Create an account
+* Add a new place or browse the existing places
+* Add pictures or comments
 
-* System dependencies
+### Technologies
+* Ruby 2.5.3
+* Rails 5.2.3
+* PostgreSQL
+* Bootstrap 4.0.0.alpha6
+* will_paginate 3.1.0
+* Carrierwave 1.0
+* Devise
+* Geocoder
+* Figaro
+* jQuery
 
-* Configuration
 
-* Database creation
+### Installing
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+> git clone https://github.com/R-Currie/Nomster.git
+2. Run bundle install inside project root
+> bundle install
+3. Start server
+> rails server -b 0.0.0.0 -p 3000
+4. Enjoy!
